@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: skyblue;
+}
+
+/* the app container */
+
+.container{
+    max-width: 200px;
+    min-height: 250px;
+    background-color: azure;
+    margin: auto;
+    border-radius: 18%;
+    border: 3px black solid;
+    margin-top: 10vh;
+}
+.notification{
+    display: none;
+}
+/* title */
+.title{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+/* weather icon divs */
+.weather-container .weather-icon img{
+    display: block;
+    margin: auto;
+}
+
+/* displayed data */
+.temperature-value,
+.temperature-description,
+.location {
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+}
+/* notification div */
+.notification{
+    background-color: rgba(255, 80, 80, 0.2);
+    padding: 2px;
+    text-align: center;
+}
+
+/* hover */
+.temperature-value:hover p{
+    background-color: rgba(80, 255, 80, 0.5);
+    border-radius: 20%;
+    cursor: pointer;
+}
